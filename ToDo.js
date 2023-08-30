@@ -9,6 +9,7 @@ btn.addEventListener("click", function (event) {
 
   let lst = document.createElement("li");
   lst.innerText = inp.value;
+  lst.style.color="Purple"
 
   let lst1 = document.querySelector("ul");
   lst1.appendChild(lst);
@@ -17,6 +18,8 @@ btn.addEventListener("click", function (event) {
   let del = document.createElement("button");
   del.innerText = "delete";
   del.classList.add("button");
+  del.style.marginLeft="1rem";
+  del.style.backgroundColor=" pink"
 
   lst.appendChild(del);
 });
